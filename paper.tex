@@ -13,8 +13,6 @@
 \newcommand{\mariaesther}[1]{\todo[color=cyan]{Maria-Esther: #1}}
 \newcommand{\christoph}[1]{\todo{Christoph: #1}}
        
-\urldef{\mails}\path|{lytra, vidal, langec, auer}@cs.uni-bonn.de|
-
 % squeeze some space
 \setlength{\parskip}{0cm}
 \def\baselinestretch{0.99}
@@ -25,15 +23,22 @@
 \begin{document}
 	
 	\mainmatter
-	\title{WDAqua: Answering Questions using Web Data\thanks{The authors of this abstract are the coordinators of the project.}}
+	\title{WDAqua: Answering Questions using Web Data}
 	
-	\author{Ioanna Lytra, Maria-Esther Vidal, Christoph Lange \and S{\"o}ren Auer}
-	\institute{University of Bonn, Germany\\ \mails\\}
+	\author{Ioanna Lytra\inst{1}
+          \and Maria-Esther Vidal\inst{1,2}
+          \and Christoph Lange\inst{1,2}
+          \and Elena Demidova\inst{3}
+          \and S{\"o}ren Auer\inst{1,2}}
+	\institute{University of Bonn, Germany \email{{lytra,vidal,langec,auer}@cs.uni-bonn.de}
+          \and Fraunhofer IAIS, Germany
+          \and University of Southampton, UK \email{e.demidova@soton.ac.uk}
+          }
 	
 	\maketitle
 	
 	\section{WDAqua in a Nutshell} \label{sec:intro}
-	WDAqua, a Marie Sk{\l}odowska Curie Innovative Training Network (ITN) running from January 2015 to December 2018, involves six academic partners\footnote{University of Bonn, Fraunhofer Institute for Intelligent Analysis and Information Systems IAIS, Germany; National and Kapodistrian University of Athens, Greece; Universit{\'e} Jean Monnet Saint-{\'E}tienne, France; University of Southampton, Open Data Institute (ODI), UK.}, and employs 15 PhD students in total.
+	WDAqua, a Marie Sk{\l}odowska Curie Innovative Training Network (ITN) running from January 2015 to December 2018, involves six academic partners\footnote{University of Bonn (coordinator), Fraunhofer Institute for Intelligent Analysis and Information Systems IAIS, Germany; National and Kapodistrian University of Athens, Greece; Universit{\'e} Jean Monnet Saint-{\'E}tienne, France; University of Southampton, Open Data Institute (ODI), UK.}, and employs 15 PhD students (early stage researchers, ESRs) in total.
         The main motivation of this project is that sharing, connecting, analyzing, and understanding data on the Web can provide better services to citizens, communities, and the industry.
         A vehicle to achieve this is data-driven question answering (QA), having the key objective of delivering precise and comprehensive answers to natural language questions primarily by making better use of data.
         Powerful QA tools promise to improve access to the large amount of information available on the Web, or even private data collections, and can be immediately useful to a wide audience of end users in their private and professional life.
@@ -44,11 +49,11 @@
     % \christoph{\emph{Exploitation} will happen in a late phase only, but even from the very start our work should of course be \emph{innovative} already.}
     At the final stage of the project, the respective research results will be combined into an open data-driven QA platform and ecosystem, where other QA related components from the research community can be plugged in.
 	%\christoph{Not quite yet, but let's claim so and hope it'll be done by ESWC.}
-	The recruitment of the PhD students has now been completed and various research and training events have been organized by the WDAqua members.
-        In particular, the 1st WDAqua Learning Week in Summer 2015 was an opportunity for the participants to gain hands-on experience on different components of QA systems and establish collaborations with fellow WDAqua early stage researchers.
-        Other activities include the organization of the Web Intelligence Summer School (2015), the Annual Meetup of the Question Answering Community in Germany and beyond (2015), and the organization of the 3rd International Workshop on Dataset PROFIling and fEderated Search for Linked Data (2016) at ESWC 2016.
-	For training purposes, a few short-term inter-sectoral secondments among partners and at industrial partner organizations have been completed and more are planned for the upcoming years.
-	
+    The recruitment of the ESRs has now been completed and various research and training events have been organized by the WDAqua members.
+    In the 1st WDAqua Learning Week the ESRs gained hands-on experience on different components of QA systems and to establish collaborations with fellow WDAqua ESRs.
+    In the 1st R\&D week, WDAqua ESRs strengthened their collaborations and initiated several ongoing research projects on topics related to Linked Data, multilingual data analytics and Q\&A system design.
+    Upcoming training activities include the ESWC 2016 summer school on Data Science in September 2016\footnote{\url{http://summerschool2016.eswc-conferences.org}}.	
+
 	At this early stage of the WDAqua research project, the researchers focused, first of all, on identifying and investigating open research questions in data-driven QA, analyzed the state of the art regarding these open challenges, and published or submitted for publication some initial results at high-quality research venues (ICSC 2016, ESWC 2016, etc.).
 	The research questions the PhD students are currently working on can be classified into four key research areas strongly related to data-driven QA (cf.\ Fig.~\ref{fig:figure}): 
 	%\christoph{To save more space we could even have a figure without a caption and refer to it as ``\emph{the} figure'' – in a 2-page paper that's OK.}
